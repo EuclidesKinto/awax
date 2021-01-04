@@ -1,6 +1,7 @@
-body{
+*{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 header{
     height: 100px;
@@ -8,7 +9,23 @@ header{
 }
 .header{
     max-width: 1140px;
-    background-color: cornflowerblue;
     height: 100px;
     margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+}
+.menu{
+    flex: 1;
+    background-color: crimson;
+    display: flex;
+    justify-content: flex-end;
+}
+.logoimg{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #b28756;
 }
