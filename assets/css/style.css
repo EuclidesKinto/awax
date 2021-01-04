@@ -1,0 +1,14 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    height: 100px;
+    background-color: #000;
+}
+.header{
+    max-width: 1140px;
+    background-color: cornflowerblue;
+    height: 100px;
+    margin: auto;
+}
